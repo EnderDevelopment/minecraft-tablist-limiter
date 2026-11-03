@@ -1,0 +1,14 @@
+name: PlayerVisibilityPlugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+api-version: "1.21"
+commands:
+  reloadconfig:
+    description: Reloads the plugin configuration.
+    usage: /reloadconfig
+    permission: playervisibility.reload
+permissions:
+  playervisibility.reload:
+    description: Allows reloading the plugin configuration.
+    default: op
